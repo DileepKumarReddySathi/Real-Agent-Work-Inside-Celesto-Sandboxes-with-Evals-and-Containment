@@ -1,0 +1,6 @@
+{
+  "who": "Security teams, package registry maintainers, and DevSecOps engineers auditing untrusted open-source dependencies.",
+  "agent_work": "Executes untrusted packages in isolated Celesto microVMs, analyzes behavioral traces, audits network calls, and detects malicious actions.",
+  "proof_output": "Structured detonation audit ledger with containment verification logs and security verdicts.",
+  "idea_source": "idea_bank"
+}

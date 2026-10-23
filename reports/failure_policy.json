@@ -1,0 +1,7 @@
+{
+  "failed_step": 7,
+  "total_steps": 10,
+  "policy": "rollback",
+  "rationale": "When step 7 of 10 fails due to an unexpected execution error or corrupted environment state during risky package detonation, restarting completely from fresh wastes significant compute and time re-running deterministic initialization steps 1 through 6. Conversely, naive resumption carries corrupted intermediate artifacts forward. Rolling back to the microVM snapshot captured immediately after step 6 provides optimal trade-offs: it restores a known clean, verified state instantaneously without host re-provisioning overhead, isolates the transient failure, and enables safe retry with alternative execution parameters.",
+  "trace_path": "reports/failure_trace.jsonl"
+}

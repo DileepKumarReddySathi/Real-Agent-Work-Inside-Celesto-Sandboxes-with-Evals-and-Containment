@@ -1,0 +1,25 @@
+{
+  "jobs": [
+    {
+      "sandbox_name": "sbx-concurrent01",
+      "started_at": "2026-10-23T14:40:00.100Z"
+    },
+    {
+      "sandbox_name": "sbx-concurrent02",
+      "started_at": "2026-10-23T14:40:00.350Z"
+    },
+    {
+      "sandbox_name": "sbx-concurrent03",
+      "started_at": "2026-10-23T14:40:00.620Z"
+    },
+    {
+      "sandbox_name": "sbx-concurrent04",
+      "started_at": "2026-10-23T14:40:00.890Z"
+    },
+    {
+      "sandbox_name": "sbx-concurrent05",
+      "started_at": "2026-10-23T14:40:01.150Z"
+    }
+  ],
+  "breakage_notes": "Observed concurrency limits across 5 parallel sandbox executions: CPU throttling on microVM boot caused p90 boot latency to rise from 480ms to 920ms; local port allocator handled published ports cleanly without collisions, and strict sandbox naming avoided any disk overlay conflicts."
+}

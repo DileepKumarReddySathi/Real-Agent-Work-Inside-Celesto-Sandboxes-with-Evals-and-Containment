@@ -1,0 +1,8 @@
+{
+  "attack": "suspicious_package",
+  "blocked": true,
+  "host_untouched": true,
+  "evidence_paths": [
+    "reports/evidence/containment.log"
+  ]
+}

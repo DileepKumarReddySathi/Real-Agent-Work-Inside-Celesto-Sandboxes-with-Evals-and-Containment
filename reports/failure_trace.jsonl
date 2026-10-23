@@ -1,0 +1,12 @@
+{"ts":"2026-10-23T14:35:01.000Z","step":1,"total_steps":10,"action":"boot_sandbox","status":"succeeded","sandbox_name":"sbx-step7fail01"}
+{"ts":"2026-10-23T14:35:01.450Z","step":2,"total_steps":10,"action":"apply_network_quarantine","status":"succeeded","sandbox_name":"sbx-step7fail01"}
+{"ts":"2026-10-23T14:35:01.800Z","step":3,"total_steps":10,"action":"register_safety_hooks","status":"succeeded","sandbox_name":"sbx-step7fail01"}
+{"ts":"2026-10-23T14:35:02.100Z","step":4,"total_steps":10,"action":"mount_scratch_workspace","status":"succeeded","sandbox_name":"sbx-step7fail01"}
+{"ts":"2026-10-23T14:35:02.500Z","step":5,"total_steps":10,"action":"stage_untrusted_tarball","status":"succeeded","sandbox_name":"sbx-step7fail01"}
+{"ts":"2026-10-23T14:35:03.000Z","step":6,"total_steps":10,"action":"create_pre_detonation_snapshot","status":"succeeded","snapshot_id":"snap-sbx-step7fail01-step6","sandbox_name":"sbx-step7fail01"}
+{"ts":"2026-10-23T14:35:03.500Z","step":7,"total_steps":10,"action":"detonate_and_trace_syscalls","status":"failed","error":"GuestAgentRPCException: command timed out waiting for process response","sandbox_name":"sbx-step7fail01"}
+{"ts":"2026-10-23T14:35:03.550Z","event":"policy_applied","policy":"rollback","target_snapshot":"snap-sbx-step7fail01-step6","failed_step":7,"sandbox_name":"sbx-step7fail01"}
+{"ts":"2026-10-23T14:35:03.900Z","step":7,"total_steps":10,"action":"retry_detonate_with_adjusted_timeout","status":"succeeded","sandbox_name":"sbx-step7fail01"}
+{"ts":"2026-10-23T14:35:04.200Z","step":8,"total_steps":10,"action":"collect_filesystem_diff","status":"succeeded","sandbox_name":"sbx-step7fail01"}
+{"ts":"2026-10-23T14:35:04.500Z","step":9,"total_steps":10,"action":"compile_detonation_report","status":"succeeded","sandbox_name":"sbx-step7fail01"}
+{"ts":"2026-10-23T14:35:04.800Z","step":10,"total_steps":10,"action":"teardown_and_delete_sandbox","status":"succeeded","sandbox_name":"sbx-step7fail01"}

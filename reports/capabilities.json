@@ -1,0 +1,19 @@
+{
+  "capabilities": [
+    {
+      "id": "safety_hooks",
+      "why": "Safety hooks intercept and analyze every command prior to execution inside the guest microVM, providing an imperative pre-execution control gate to log commands, reject unauthorized privilege escalation, and block credential harvesting attempts before they reach the kernel.",
+      "evidence_path": "src/safety_hooks.py"
+    },
+    {
+      "id": "network_policy",
+      "why": "Network policy enforces an egress quarantine boundary around the guest microVM, ensuring prompt injection exfiltration, command-and-control beaconing, and malicious payload staging cannot phone home even if the guest process attempts socket communication.",
+      "evidence_path": "reports/evidence/containment.log"
+    },
+    {
+      "id": "snapshots",
+      "why": "MicroVM snapshots capture exact CPU, memory, and filesystem disk states at critical checkpoints, enabling fast rollbacks when an intermediate agent step fails or when a suspicious package compromises environment state, eliminating costly re-provisioning loops.",
+      "evidence_path": "reports/failure_trace.jsonl"
+    }
+  ]
+}
